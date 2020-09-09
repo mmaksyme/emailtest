@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="main suite">
+    <test name="suite">
+        <parameter name="catLink" value="https://aws.random.cat/meow"/>
+        <parameter name="dogLink" value="https://random.dog/woof.json"/>
+        <parameter name="foxLink" value="https://randomfox.ca/floof/"/>
+        <classes>
+            <class name="tests.email.TestSendEmail"/>
+        </classes>
+    </test>
+</suite>
